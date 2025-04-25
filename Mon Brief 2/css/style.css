@@ -129,6 +129,7 @@ input:hover {
         display: grid;
         grid-template-columns: 1fr;
         height: 100vh;
+        gap: 10px;
     }
     .d-grid-2 {
         display: grid;

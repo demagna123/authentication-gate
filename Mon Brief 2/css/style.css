@@ -122,3 +122,18 @@ input:hover {
     font-family: roboto-regular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
+@media (max-width: 720px){
+
+    .auth-cover {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+    .d-grid-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+}
